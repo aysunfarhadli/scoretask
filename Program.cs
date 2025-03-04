@@ -27,7 +27,7 @@ class Program
 
             if (bal >= 0 && bal <= 100)
             {
-                Console.WriteLine("Qiymət: " + QiymetHesabla(bal));
+                Console.WriteLine(QiymetHesabla(bal));
             }
             else
             {
